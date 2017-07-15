@@ -15,7 +15,7 @@ use MikroTik;
 use Nagios::Plugin::Getopt;
 $ng = Nagios::Plugin::Getopt->new(
 	usage => 'Usage: %s -H mtik_host -a apiport -u mtik_user -p mtik_passwd -l list_name',
-	version => '0.1 [http://blog.openskills.it]',
+	version => '0.2 [http://blog.openskills.it]',
 );
 $ng->arg(spec => 'host|H=s', help => "Mikrotik Host", required => 1);
 $ng->arg(spec => 'apiport|a=n', help => "API Port", required => 0);
