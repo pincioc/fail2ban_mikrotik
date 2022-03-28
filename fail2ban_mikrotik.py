@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #
-# Mikrotik Fail2ban script v0.2 #
+# Mikrotik Fail2ban script v0.2.1 #
 #				#
 #	         by Mauro Fiore	#
 #	blog.openskills.it	#
